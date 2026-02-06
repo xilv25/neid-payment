@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>VOCHUY INDONESIA ALL PAYMENT</title>
+    <title>UNSTOPPABLE_NEID ALL PAYMENT</title>
     
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
@@ -367,7 +367,7 @@
             <div class="btn-icon ripple" id="btnMenu">
                 <i class="ri-menu-3-line"></i>
             </div>
-            <div style="font-weight:800; font-size:16px; letter-spacing:1px;">VOCHUY<span style="color:var(--text-muted);">PAY</span></div>
+            <div style="font-weight:800; font-size:16px; letter-spacing:1px;">NEID<span style="color:var(--text-muted);">PAY</span></div>
             <div class="currency-selector ripple" id="currencySelector">
                 <div class="currency-flag"></div>
                 <div class="currency-text">ID / IDR</div>
@@ -376,19 +376,16 @@
 
         <div class="content-area" id="mainContent">
             <div class="profile-section">
-                <img src="https://cdn.odzre.my.id/47e.jpg" class="p-img" onerror="this.src='https://placehold.co/100'">
+                <img src="https://ik.imagekit.io/neid/neidprofileiconic.jpg" class="p-img" onerror="this.src='https://placehold.co/100'">
                 <div class="p-info">
                     <h2 id="userName"></h2>
                     <p><span class="status-dot"></span> Online & Verified</p>
                     <div class="social-bar">
-                        <a href="https://www.instagram.com/vochuyindonesia?igsh=MXV4OHdiOGFmdWt5Mw==" target="_blank" rel="noopener" class="soc-icon ripple" onclick="playTick()">
+                        <a href="https://www.instagram.com/nameless_nd?igsh=MTg0Ymk5aWNzdWtjdg==" target="_blank" rel="noopener" class="soc-icon ripple" onclick="playTick()">
                             <i class="ri-instagram-fill"></i>
                         </a>
-                        <a href="https://telegram.org" target="_blank" rel="noopener" class="soc-icon ripple" onclick="playTick()">
+                        <a href="https://t.me/namelesscenter" target="_blank" rel="noopener" class="soc-icon ripple" onclick="playTick()">
                             <i class="ri-telegram-fill"></i>
-                        </a>
-                        <a href="https://linkedin.com" target="_blank" rel="noopener" class="soc-icon ripple" onclick="playTick()">
-                            <i class="ri-linkedin-fill"></i>
                         </a>
                     </div>
                 </div>
@@ -398,7 +395,7 @@
 
             <div class="marquee-container">
                 <div class="marquee-text">
-                    INFO: Pembayaran Otomatis DANA & ShopeePay tersedia 24 Jam • Hubungi Admin jika ada kendala • Jangan lupa simpan bukti transfer.
+                    INFO: Pembayaran melalui Qris hanya dilakukan pada jam 04:00 - 22:00 • Hubungi admin jika mendapatkan kendala • Jangan lupa screenshot dan kirimkan bukti transfer kepada admin.
                 </div>
             </div>
 
@@ -415,7 +412,7 @@
                     <div class="mc-icon" style="color:#10b981;"><i class="ri-wallet-3-fill"></i></div>
                     <div class="mc-text">
                         <h3>E-Wallet</h3>
-                        <p>Dana / OVO / GoPay</p>
+                        <p>Dana / Ovo / GoPay</p>
                     </div>
                 </div>
                 <div class="menu-card ripple" onclick="openSheet('bank')">
@@ -459,15 +456,15 @@
                 <div class="feat-item ripple" onclick="playTick()">
                     <i class="ri-customer-service-fill feat-icon"></i>
                     <div class="feat-text">
-                        <h5>Admin 24/7</h5>
+                        <h5>Admin</h5>
                         <p>Siap Membantu</p>
                     </div>
                 </div>
             </div>
 
             <div class="promo-banner ripple">
-                <h4>Promo Cashback 50%</h4>
-                <p>Khusus pengguna baru untuk transaksi pertama via QRIS.</p>
+                <h4>Banyak promo menanti</h4>
+                <p>Khusus member Nameless, nantikan promonya.</p>
                 <i class="ri-coupon-3-line promo-deco"></i>
             </div>
             <div style="height:30px;"></div>
@@ -532,22 +529,22 @@ const adBanners = [
         ];
         const dataPay = {
             // E-Wallet
-            dana: { name: 'DANA', num: '081227108559', img: 'https://cdn.odzre.my.id/r25.jpg' },
-            shopee: { name: 'ShopeePay', num: '081xxx', img: 'https://cdn.odzre.my.id/ukr.jpg' },
-            gopay: { name: 'GoPay', num: '081227108559', img: 'https://cdn.odzre.my.id/fw6.jpg' },
-            ovo: { name: 'OVO', num: '081227108559', img: 'https://cdn.odzre.my.id/lpp.jpg' },
-            linkaja: { name: 'LinkAja', num: '081xxx', img: 'https://cdn.odzre.my.id/qga.jpg' },
+            dana: { name: 'DANA', num: '081380518572', img: 'https://cdn.odzre.my.id/r25.jpg' },
+            shopee: { name: 'ShopeePay', num: 'upcoming', img: 'https://cdn.odzre.my.id/ukr.jpg' },
+            gopay: { name: 'GoPay', num: '081380518572', img: 'https://cdn.odzre.my.id/fw6.jpg' },
+            ovo: { name: 'OVO', num: 'upcoming', img: 'https://cdn.odzre.my.id/lpp.jpg' },
+            linkaja: { name: 'LinkAja', num: 'upcoming', img: 'https://cdn.odzre.my.id/qga.jpg' },
             
             // Bank
-            bca: { name: 'BCA', num: '123xxx', img: 'https://cdn.odzre.my.id/nbo.jpg' },
-            sebank: { name: 'SeaBank', num: '081xxx', img: 'https://cdn.odzre.my.id/k7m.jpg' },
-            bri: { name: 'BRI', num: '081xxx', img: 'https://cdn.odzre.my.id/tke.jpg' },
+            bca: { name: 'BCA', num: '8243049952', img: 'https://cdn.odzre.my.id/nbo.jpg' },
+            sebank: { name: 'SeaBank', num: '901693367414', img: 'https://cdn.odzre.my.id/k7m.jpg' },
+            bri: { name: 'BRI', num: 'upcoming', img: 'https://cdn.odzre.my.id/tke.jpg' },
 
             // Pulsa
-            telkomsel: { name: 'Telkomsel', num: '081xxx', img: 'https://cdn.odzre.my.id/zmm.jpg' },
-            indosat: { name: 'Indosat', num: '081xxx', img: 'https://cdn.odzre.my.id/nz4.jpg' },
-            tri: { name: 'Tri (3)', num: '081xxx', img: 'https://cdn.odzre.my.id/z39.jpg' },
-            smartfren: { name: 'Smartfren', num: '088976422189', img: 'https://cdn.odzre.my.id/3wg.jpg' }
+            telkomsel: { name: 'Telkomsel', num: '08xxx', img: 'https://cdn.odzre.my.id/zmm.jpg' },
+            indosat: { name: 'Indosat', num: '08xxx', img: 'https://cdn.odzre.my.id/nz4.jpg' },
+            tri: { name: 'Tri (3)', num: '08xxx', img: 'https://cdn.odzre.my.id/z39.jpg' },
+            smartfren: { name: 'Smartfren', num: '08xxx', img: 'https://cdn.odzre.my.id/3wg.jpg' }
         };
 
         function initAdSlider() {
@@ -762,19 +759,16 @@ const adBanners = [
             
             const usageHTML = `
                 <div class="profile-section">
-                    <img src="https://cdn.odzre.my.id/47e.jpg" class="p-img" onerror="this.src='https://placehold.co/100'">
+                    <img src="https://ik.imagekit.io/neid/neidprofileiconic.jpg" class="p-img" onerror="this.src='https://placehold.co/100'">
                     <div class="p-info">
-                        <h2 id="userName">VOCHUY INDONESIA</h2>
+                        <h2 id="userName">UNSTOPPABLE_NEID</h2>
                         <p><span class="status-dot"></span> Online & Verified</p>
                         <div class="social-bar">
-                            <a href="https://www.instagram.com/vochuyindonesia?igsh=MXV4OHdiOGFmdWt5Mw==" target="_blank" rel="noopener" class="soc-icon ripple" onclick="playTick()">
+                            <a href="https://www.instagram.com/nameless_nd?igsh=MTg0Ymk5aWNzdWtjdg==" target="_blank" rel="noopener" class="soc-icon ripple" onclick="playTick()">
                                 <i class="ri-instagram-fill"></i>
                             </a>
-                            <a href="https://telegram.org" target="_blank" rel="noopener" class="soc-icon ripple" onclick="playTick()">
+                            <a href="https://t.me/namelesscenter" target="_blank" rel="noopener" class="soc-icon ripple" onclick="playTick()">
                                 <i class="ri-telegram-fill"></i>
-                            </a>
-                            <a href="https://linkedin.com" target="_blank" rel="noopener" class="soc-icon ripple" onclick="playTick()">
-                                <i class="ri-linkedin-fill"></i>
                             </a>
                         </div>
                     </div>
@@ -825,19 +819,16 @@ const adBanners = [
             
             const homeHTML = `
                 <div class="profile-section">
-                    <img src="https://cdn.odzre.my.id/47e.jpg" class="p-img" onerror="this.src='https://placehold.co/100'">
+                    <img src="https://ik.imagekit.io/neid/neidprofileiconic.jpg" class="p-img" onerror="this.src='https://placehold.co/100'">
                     <div class="p-info">
                         <h2 id="userName"></h2>
                         <p><span class="status-dot"></span> Online & Verified</p>
                         <div class="social-bar">
-                            <a href="https://www.instagram.com/vochuyindonesia?igsh=MXV4OHdiOGFmdWt5Mw==" target="_blank" rel="noopener" class="soc-icon ripple" onclick="playTick()">
+                            <a href="https://www.instagram.com/nameless_nd?igsh=MTg0Ymk5aWNzdWtjdg==" target="_blank" rel="noopener" class="soc-icon ripple" onclick="playTick()">
                                 <i class="ri-instagram-fill"></i>
                             </a>
-                            <a href="https://telegram.org" target="_blank" rel="noopener" class="soc-icon ripple" onclick="playTick()">
+                            <a href="https://t.me/namelesscenter" target="_blank" rel="noopener" class="soc-icon ripple" onclick="playTick()">
                                 <i class="ri-telegram-fill"></i>
-                            </a>
-                            <a href="https://linkedin.com" target="_blank" rel="noopener" class="soc-icon ripple" onclick="playTick()">
-                                <i class="ri-linkedin-fill"></i>
                             </a>
                         </div>
                     </div>
@@ -847,7 +838,7 @@ const adBanners = [
 
                 <div class="marquee-container">
                     <div class="marquee-text">
-                        INFO: Pembayaran Otomatis DANA & ShopeePay tersedia 24 Jam • Hubungi Admin jika ada kendala • Jangan lupa simpan bukti transfer.
+                        INFO: Pembayaran melalui Qris hanya dilakukan pada jam 04:00 - 22:00 • Hubungi admin jika mendapatkan kendala • Jangan lupa screenshot dan kirimkan bukti transfer kepada admin.
                     </div>
                 </div>
 
@@ -915,8 +906,8 @@ const adBanners = [
                 </div>
 
                 <div class="promo-banner ripple">
-                    <h4>Promo Cashback 50%</h4>
-                    <p>Khusus pengguna baru untuk transaksi pertama via QRIS.</p>
+                    <h4>Banyak promo menanti</h4>
+                    <p>Khusus member Nameless, Nantikan promonya.</p>
                     <i class="ri-coupon-3-line promo-deco"></i>
                 </div>
                 <div style="height:30px;"></div>
